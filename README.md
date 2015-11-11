@@ -11,7 +11,7 @@ Create a registry entry in
 [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Copy Path Unix Format]
 and also in 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Copy Path Unix Format\Command]
-@="%****PUT_PATH_HERE****%\\UnixDirectoryFormatting.exe \"%1\""
+@="****PUT_PATH_HERE****\\UnixDirectoryFormatting.exe \"%1\""
 
 
 After this Your Registry tree  Will look like this
