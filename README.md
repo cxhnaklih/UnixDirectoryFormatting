@@ -23,3 +23,6 @@ SOFTWARE
                   |-> Command
                   
 and in command you will have a single key  (Default) of type REG_SZ with data ?:...\UnixDirectoryFormatting.exe "%1"
+
+Now if you right click any file in windows explorer you will see the Copy Path Unix Format menu.
+
