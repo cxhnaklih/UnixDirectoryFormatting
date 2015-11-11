@@ -12,3 +12,14 @@ Create a registry entry in
 and also in 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Copy Path Unix Format\Command]
 @="%****PUT_PATH_HERE****%\\UnixDirectoryFormatting.exe \"%1\""
+
+
+After this Your Registry tree  Will look like this
+SOFTWARE
+    |->Classes
+          |->*
+            |->shell
+                |->Copy Path Unix Format
+                  |-> Command
+                  
+and in command you will have a single key  (Default) of type REG_SZ with data ?:...\UnixDirectoryFormatting.exe "%1"
